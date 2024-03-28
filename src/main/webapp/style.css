@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+	background-color:yellow; 
+}
+
+* {box-sizing: border-box;}
+
+.navbar a {
+
+    text-align: left;
+    color: black;
+  }
+
+  .mylink{
+    color: #5C2F7A;
+  }
+ 
+  .active{
+     font-weight:bolder;
+   } 
+   
+.mybtn1{font-size: 35px;}
+
+input[type=text], input[type=email], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #5C2F7A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #737373;
+}
+input.mycb {
+  width: 30px;
+  height: 30px;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5%;
+}
+
